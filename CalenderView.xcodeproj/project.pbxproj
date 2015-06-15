@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C87420931AD04A0E0033B6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87420921AD04A0E0033B6C5 /* AppDelegate.swift */; };
-		C87420951AD04A0E0033B6C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87420941AD04A0E0033B6C5 /* ViewController.swift */; };
 		C87420981AD04A0E0033B6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87420961AD04A0E0033B6C5 /* Main.storyboard */; };
 		C874209A1AD04A0E0033B6C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87420991AD04A0E0033B6C5 /* Images.xcassets */; };
 		C874209D1AD04A0E0033B6C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C874209B1AD04A0E0033B6C5 /* LaunchScreen.xib */; };
 		C87420A91AD04A0E0033B6C5 /* CalenderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87420A81AD04A0E0033B6C5 /* CalenderViewTests.swift */; };
+		C87420B31AD04A360033B6C5 /* CalenderMonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87420B21AD04A360033B6C5 /* CalenderMonthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		C874208D1AD04A0E0033B6C5 /* CalenderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalenderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87420911AD04A0E0033B6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87420921AD04A0E0033B6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C87420941AD04A0E0033B6C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C87420971AD04A0E0033B6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C87420991AD04A0E0033B6C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C874209C1AD04A0E0033B6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C87420A21AD04A0E0033B6C5 /* CalenderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87420A71AD04A0E0033B6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87420A81AD04A0E0033B6C5 /* CalenderViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewTests.swift; sourceTree = "<group>"; };
+		C87420B21AD04A360033B6C5 /* CalenderMonthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderMonthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				C87420921AD04A0E0033B6C5 /* AppDelegate.swift */,
-				C87420941AD04A0E0033B6C5 /* ViewController.swift */,
 				C87420961AD04A0E0033B6C5 /* Main.storyboard */,
+				C87420B21AD04A360033B6C5 /* CalenderMonthViewController.swift */,
 				C87420991AD04A0E0033B6C5 /* Images.xcassets */,
 				C874209B1AD04A0E0033B6C5 /* LaunchScreen.xib */,
 				C87420901AD04A0E0033B6C5 /* Supporting Files */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87420951AD04A0E0033B6C5 /* ViewController.swift in Sources */,
+				C87420B31AD04A360033B6C5 /* CalenderMonthViewController.swift in Sources */,
 				C87420931AD04A0E0033B6C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +405,7 @@
 				C87420AE1AD04A0E0033B6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C87420AF1AD04A0E0033B6C5 /* Build configuration list for PBXNativeTarget "CalenderViewTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				C87420B11AD04A0E0033B6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
